@@ -1,1 +1,3 @@
 sideseeing-tools
+matplotlib
+pillow

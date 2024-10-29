@@ -15,10 +15,11 @@ def split_video_into_frames(video_path, output_dir):
     command = [
         'ffmpeg',
         '-i', video_path,
-        os.path.join(output_dir, 'frame%05d.jpg')
+        os.path.join(output_dir, '%05d.jpg')
     ]
 
     subprocess.run(command)
+
 
 def run_all(args):
     ds = sideseeing.SideSeeingDS(root_dir=args.path_dataset)
