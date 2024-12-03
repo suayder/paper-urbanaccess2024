@@ -26,16 +26,8 @@ We used python==3.10.15 and torch==2.1.0+cu121 in the environment.
 
 Also, install requirements.txt.
 
-TODO
 
-- [x] pegar arquivos que estiverem no computador de trabalho
-- [x] preparar dataset (tudo na estrutura do side seeing)
-- [ ] dados de clicks
-- [ ] script de segmentaćão
-- [ ] gerar mapas de saliência a partir da segmentaćão
-
-
-Videos:
+Video dataset (not public available):
 
 
 ID | Duration (s) | Total frames
@@ -50,11 +42,8 @@ All                  | 772.85        | 23,188
 
 Passos:
 
-gerar clicks
+generate clicks
 
-gerar segmentaćão a partir do SAM2
+generate segmentation from SAM2 model
 
-gerar pontos de interesse (curvas)
-
-separar nas pastas correatamente da forma do dataset famoso
->>>>>>> 06a8cec (initial commit for full code refactoring)
+generate points of interest (in case of this paper, curves)
